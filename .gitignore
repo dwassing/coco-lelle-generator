@@ -1,0 +1,150 @@
+# ============================================================
+# Frontend – Angular / Node.js
+# ============================================================
+
+frontend/node_modules/
+frontend/dist/
+frontend/tmp/
+frontend/out-tsc/
+frontend/bazel-out/
+frontend/.angular/cache
+frontend/coverage/
+frontend/.sass-cache/
+frontend/connect.lock
+frontend/libpeerconnection.log
+frontend/testem.log
+frontend/__screenshots__/
+npm-debug.log
+yarn-error.log
+
+# ============================================================
+# Backend – .NET / C#
+# ============================================================
+
+# Build results
+backend/bin/
+backend/obj/
+backend/[Ll]og/
+backend/[Ll]ogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio cache
+backend/.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Compiled output
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+!Directory.Build.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+nunit-*.xml
+*.VisualState.xml
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+
+# Publish output
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# MSBuild
+*.binlog
+
+# ============================================================
+# Common – OS & editor files
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.sln.iml
+
+# Visual Studio Code (project root)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/
+*.code-workspace
+
+# Vim
+*.swp
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
